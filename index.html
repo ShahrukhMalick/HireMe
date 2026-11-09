@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>Shahrukh Malick, Project Coordinator Lead</title>
+<meta name="description" content="Shahrukh Malick is a PMP, Scrum Master and Lean Six Sigma certified project coordinator in Houston, TX. Telecom, IT and enterprise delivery, and co-founder of DwelloMate."/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Shahrukh Malick, Project Coordinator Lead"/>
+<meta property="og:description" content="PMP, Scrum Master and Lean Six Sigma. Automation, dashboards and process improvement with measurable results."/>
+<meta name="theme-color" content="#F6F7F9"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F1C2A'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='%23E0A23A'%3ESM%3C/text%3E%3C/svg%3E"/>
+
+<script>
+/* Runs before paint: enables JS-only styles and applies the saved or system theme. */
+(function () {
+  var r = document.documentElement;
+  r.classList.add('js');
+  var t;
+  try { t = localStorage.getItem('theme'); } catch (e) {}
+  if (t !== 'dark' && t !== 'light') {
+    t = (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  }
+  r.setAttribute('data-theme', t);
+})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #F6F7F9;
+  --surface: #FFFFFF;
+  --ink: #0E1B2B;
+  --muted: #4A5B6D;
+  --faint: #66737F;
+  --line: #DCE1E7;
+  --steel: #1F4E79;
+  --on-steel: #FFFFFF;
+  --accent: #E0A23A;
+  --on-accent: #0E1B2B;
+  --display: 'Inter', -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --head: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --wrap: 1120px;
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --bg: #0B1622;
+  --surface: #112133;
+  --ink: #E8EEF5;
+  --muted: #A3B2C2;
+  --faint: #8494A5;
+  --line: #223548;
+  --steel: #6FA0D4;
+  --on-steel: #06111C;
+  --accent: #E7AE55;
+  --on-accent: #0B1622;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-padding-top: 84px; -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--steel); outline-offset: 3px; border-radius: 4px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip { position: absolute; left: 1rem; top: -4rem; background: var(--ink); color: var(--bg); padding: .6rem 1rem; border-radius: 8px; z-index: 100; }
+.skip:focus { top: 1rem; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 clamp(1.25rem, 4vw, 2.5rem); }
+
+/* ---------- Nav ---------- */
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+@supports (background: color-mix(in srgb, red 50%, blue)) {
+  .nav { background: color-mix(in srgb, var(--bg) 86%, transparent); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+}
+.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 1rem; }
+.brand { display: flex; align-items: center; gap: .7rem; font-weight: 600; }
+.brand-mark {
+  width: 34px; height: 34px; border-radius: 9px; background: var(--ink); color: var(--bg);
+  display: grid; place-items: center; font-weight: 700; font-size: .85rem; letter-spacing: 0;
+}
+.nav-links { display: flex; align-items: center; gap: .25rem; }
+.nav-links a:not(.nav-cta) {
+  padding: .5rem .8rem; font-size: .92rem; color: var(--muted); border-radius: 8px;
+  transition: color .15s, background .15s;
+}
+.nav-links a:not(.nav-cta):hover { color: var(--ink); background: color-mix(in srgb, var(--ink) 6%, transparent); }
+.nav-links a[aria-current="true"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--ink); border-radius: 0; }
+.nav-cta { margin-left: .5rem; padding: .55rem 1.1rem; background: var(--ink); color: var(--bg); border-radius: 8px; font-size: .92rem; font-weight: 600; }
+.nav-cta:hover { background: var(--steel); color: var(--on-steel); }
+.nav-tools { display: flex; align-items: center; gap: .25rem; }
+.icon-btn { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; color: var(--muted); }
+.icon-btn:hover { color: var(--ink); background: color-mix(in srgb, var(--ink) 7%, transparent); }
+.icon-btn svg { width: 20px; height: 20px; }
+.ico-moon { display: none; }
+:root[data-theme="light"] .ico-moon { display: block; }
+:root[data-theme="light"] .ico-sun { display: none; }
+.menu-btn { display: none; }
+
+@media (max-width: 860px) {
+  .menu-btn { display: grid; }
+  .nav-links {
+    display: none; position: absolute; top: 64px; left: 0; right: 0;
+    flex-direction: column; align-items: stretch; gap: 0; padding: .5rem clamp(1.25rem, 4vw, 2.5rem) 1rem;
+    background: var(--bg); border-bottom: 1px solid var(--line);
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a:not(.nav-cta) { padding: .9rem .25rem; font-size: 1.05rem; border-bottom: 1px solid var(--line); border-radius: 0; box-shadow: none !important; }
+  .nav-cta { margin: .9rem 0 0; text-align: center; padding: .85rem; }
+}
+
+/* ---------- Hero ---------- */
+.hero { padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(3rem, 7vw, 5.5rem); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: end; }
+h1 {
+  font-family: var(--head);
+  font-size: clamp(2.9rem, 6.6vw, 5.25rem);
+  font-weight: 600; line-height: 1.04; letter-spacing: -.02em;
+}
+.hero-role { margin-top: 1.25rem; font-size: clamp(1.05rem, 2vw, 1.3rem); font-weight: 500; color: var(--muted); }
+.lede { font-size: clamp(1.05rem, 1.5vw, 1.2rem); line-height: 1.7; color: var(--muted); max-width: 40rem; margin-top: 1.5rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
+.btn { display: inline-flex; align-items: center; gap: .5rem; padding: .8rem 1.35rem; border-radius: 8px; font-weight: 600; font-size: .98rem; border: 1px solid transparent; transition: background .15s, color .15s, border-color .15s; }
+.btn-solid { background: var(--ink); color: var(--bg); }
+.btn-solid:hover { background: var(--steel); color: var(--on-steel); }
+.btn-line { border-color: var(--line); background: var(--surface); }
+.btn-line:hover { border-color: var(--ink); }
+.btn svg { width: 16px; height: 16px; }
+
+.avail { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem 1.6rem; }
+.avail-status { display: flex; align-items: center; gap: .6rem; font-weight: 600; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: #25a35a; box-shadow: 0 0 0 4px rgba(37,163,90,.18); }
+.avail dl { margin-top: 1.1rem; }
+.avail dt { font-size: .85rem; color: var(--faint); margin-top: 1rem; }
+.avail dd { margin-top: .15rem; font-size: .98rem; line-height: 1.5; }
+
+@media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; align-items: start; } }
+
+/* ---------- Sections ---------- */
+section.block { padding: clamp(3.5rem, 8vw, 6.5rem) 0; border-top: 1px solid var(--line); }
+h2 { font-family: var(--head); font-size: clamp(1.9rem, 3.8vw, 2.7rem); font-weight: 600; line-height: 1.12; letter-spacing: -.015em; max-width: 24ch; }
+.sec-lede { font-size: 1.05rem; line-height: 1.7; color: var(--muted); max-width: 42rem; margin-top: 1rem; }
+h3 { font-size: 1.1rem; font-weight: 600; line-height: 1.3; }
+
+/* ---------- Gantt ---------- */
+.gantt { margin-top: 2.75rem; display: grid; grid-template-columns: 210px minmax(0, 1fr); column-gap: 1.25rem; row-gap: .6rem; align-items: center; }
+.g-years { grid-column: 2; display: grid; grid-template-columns: repeat(9, 1fr); font-size: .82rem; color: var(--faint); font-variant-numeric: tabular-nums; padding-bottom: .15rem; }
+.g-years span { padding-left: .45rem; border-left: 1px solid var(--line); }
+.g-label { display: flex; flex-direction: column; line-height: 1.25; }
+.g-label strong { font-weight: 650; }
+.g-label span { font-size: .85rem; color: var(--muted); }
+.g-track {
+  position: relative; height: 46px; border-radius: 8px; background: var(--surface);
+  background-image: linear-gradient(to right, var(--line) 1px, transparent 1px);
+  background-size: calc(100% / 9) 100%;
+  border: 1px solid var(--line);
+}
+.g-track::after { content: ""; position: absolute; top: -1px; bottom: -1px; left: 99%; width: 2px; background: var(--ink); border-radius: 2px; pointer-events: none; }
+.g-bar {
+  position: absolute; top: 5px; bottom: 5px; left: var(--s); width: var(--w);
+  display: flex; align-items: center; padding: 0 .75rem; border-radius: 7px;
+  text-align: left; color: var(--on-steel); font-size: .78rem; font-weight: 600; white-space: nowrap; overflow: hidden;
+}
+.g-fill { position: absolute; inset: 0; background: var(--steel); border-radius: inherit; }
+.g-text { position: relative; overflow: hidden; text-overflow: ellipsis; }
+button.g-bar { transition: box-shadow .15s; }
+button.g-bar:hover { box-shadow: 0 0 0 2px var(--steel); }
+button.g-bar[aria-expanded="true"] { box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--ink); }
+.g-bar.venture { color: var(--on-accent); }
+.g-bar.venture .g-fill { background: var(--accent); }
+.g-bar.venture:hover { box-shadow: 0 0 0 2px var(--accent); }
+.g-legend { grid-column: 2; display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; font-size: .85rem; color: var(--muted); margin-top: .5rem; }
+.g-legend span { display: inline-flex; align-items: center; gap: .5rem; }
+.sw { width: 18px; height: 10px; border-radius: 3px; background: var(--steel); }
+.sw.accent { background: var(--accent); }
+.sw.today { width: 2px; height: 14px; background: var(--ink); border-radius: 2px; }
+
+.js .g-fill { transform: scaleX(0); transform-origin: left center; }
+.js .gantt.in .g-fill { transform: scaleX(1); transition: transform .9s cubic-bezier(.2,.7,.2,1); transition-delay: calc(var(--i, 0) * 140ms); }
+@media (prefers-reduced-motion: reduce) { .js .g-fill { transform: none; } .js .gantt.in .g-fill { transition: none; } }
+
+@media (max-width: 760px) {
+  .gantt { grid-template-columns: 1fr; row-gap: .35rem; }
+  .g-years, .g-legend { grid-column: 1; }
+  .g-years span:nth-child(even) { visibility: hidden; }
+  .g-label { margin-top: .85rem; flex-direction: row; justify-content: space-between; align-items: baseline; gap: .75rem; flex-wrap: wrap; }
+  .g-text { display: none; }
+}
+
+/* ---------- Job detail ---------- */
+.job-panels { margin-top: 2rem; }
+.job-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: clamp(1.4rem, 3vw, 2.25rem); }
+.job-panel + .job-panel { margin-top: 1rem; }
+.js .job-panel:not([hidden]) { animation: swap .28s ease; }
+@keyframes swap { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .js .job-panel:not([hidden]) { animation: none; } }
+.jp-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: .75rem 1.5rem; }
+.jp-head h3 { font-family: var(--head); font-size: clamp(1.3rem, 2.3vw, 1.6rem); font-weight: 600; letter-spacing: -.01em; }
+.jp-meta { color: var(--muted); margin-top: .25rem; font-size: .95rem; }
+.badge { font-size: .8rem; font-weight: 600; padding: .3rem .75rem; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.badge.now { border-color: var(--steel); color: var(--steel); }
+.jp-body { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: clamp(1.5rem, 4vw, 3rem); margin-top: 1.5rem; }
+.jp-summary { font-size: 1.02rem; line-height: 1.7; color: var(--muted); }
+.bullets { display: grid; gap: .8rem; }
+.bullets li { position: relative; padding-left: 1.2rem; font-size: .96rem; line-height: 1.65; }
+.bullets li::before { content: ""; position: absolute; left: 0; top: .72em; width: 7px; height: 7px; border-radius: 2px; background: var(--steel); }
+@media (max-width: 860px) { .jp-body { grid-template-columns: 1fr; gap: 1.25rem; } }
+
+/* ---------- Impact ledger ---------- */
+.ledger { margin-top: 2.5rem; }
+.lg { display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); gap: 1.5rem 2.5rem; padding: 2rem 0; border-top: 1px solid var(--line); }
+.lg:last-child { border-bottom: 1px solid var(--line); }
+.lg-head p { color: var(--muted); font-size: .92rem; margin-top: .25rem; }
+.lg-rows li { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 1rem; align-items: baseline; padding: .85rem 0; border-top: 1px solid var(--line); }
+.lg-rows li:first-child { border-top: 0; padding-top: 0; }
+.lg-rows strong { font-family: var(--head); font-size: 1.85rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.15; font-variant-numeric: lining-nums tabular-nums; }
+.lg-rows span { color: var(--muted); font-size: .98rem; line-height: 1.55; }
+@media (max-width: 760px) {
+  .lg { grid-template-columns: 1fr; gap: 1rem; }
+  .lg-rows li { grid-template-columns: 6.5rem minmax(0, 1fr); }
+  .lg-rows strong { font-size: 1.6rem; }
+}
+
+/* ---------- Projects ---------- */
+.venture-card { margin-top: 2.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.vc-top { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
+.vc-main { padding: clamp(1.5rem, 3.5vw, 2.5rem); }
+.vc-title { display: flex; align-items: center; gap: .85rem; }
+.vc-mark { width: 46px; height: 46px; border-radius: 12px; background: var(--accent); color: var(--on-accent); display: grid; place-items: center; font-weight: 700; }
+.vc-title h3 { font-family: var(--head); font-size: 1.6rem; font-weight: 600; letter-spacing: -.01em; }
+.vc-sub { color: var(--muted); font-size: .95rem; margin-top: .15rem; }
+.vc-main p.desc { font-size: 1.02rem; line-height: 1.7; color: var(--muted); margin-top: 1.4rem; max-width: 36rem; }
+.vc-main .btn { margin-top: 1.5rem; }
+.vc-services { border-left: 1px solid var(--line); }
+.vc-services li { padding: 1.15rem 1.5rem; border-top: 1px solid var(--line); }
+.vc-services li:first-child { border-top: 0; }
+.vc-services strong { display: block; font-weight: 650; }
+.vc-services span { color: var(--muted); font-size: .92rem; }
+.vc-bottom { border-top: 1px solid var(--line); padding: clamp(1.5rem, 3.5vw, 2.5rem); }
+.vc-bottom .bullets { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem 2.5rem; }
+@media (max-width: 860px) {
+  .vc-top { grid-template-columns: 1fr; }
+  .vc-services { border-left: 0; border-top: 1px solid var(--line); }
+  .vc-bottom .bullets { grid-template-columns: 1fr; }
+}
+
+/* ---------- Skills ---------- */
+.skills { margin-top: 2.5rem; border-bottom: 1px solid var(--line); }
+.skills-row { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: .5rem 2rem; padding: 1.3rem 0; border-top: 1px solid var(--line); }
+.skills-row dt { font-weight: 600; }
+.skills-row dd { color: var(--muted); font-size: .98rem; line-height: 1.75; }
+@media (max-width: 760px) { .skills-row { grid-template-columns: 1fr; } }
+
+/* ---------- Credentials ---------- */
+.cred { margin-top: 2.5rem; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4rem); }
+.cred h3 { margin-bottom: 1rem; }
+.cert-list { border-bottom: 1px solid var(--line); }
+.cert-list li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: baseline; padding: 1rem 0; border-top: 1px solid var(--line); }
+.cert-list strong { font-weight: 650; }
+.cert-list span { color: var(--muted); font-size: .92rem; text-align: right; }
+.edu { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: clamp(1.5rem, 3vw, 2.25rem); align-self: start; }
+.edu .degree { font-family: var(--head); font-size: clamp(1.5rem, 2.8vw, 1.9rem); font-weight: 600; letter-spacing: -.01em; line-height: 1.2; }
+.edu p { color: var(--muted); margin-top: .6rem; }
+.edu .honors { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.4rem; }
+.edu .honors span { font-size: .85rem; font-weight: 600; padding: .35rem .8rem; border-radius: 999px; background: var(--ink); color: var(--bg); }
+.edu .honors span + span { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+@media (max-width: 860px) { .cred { grid-template-columns: 1fr; } .cert-list li { grid-template-columns: 1fr; gap: .15rem; } .cert-list span { text-align: left; } }
+
+/* ---------- Contact ---------- */
+.contact-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); margin-top: 2.5rem; align-items: start; }
+.email-big { font-family: var(--head); font-weight: 600; display: inline-block; font-size: clamp(1.35rem, 3.6vw, 2.35rem); letter-spacing: -.01em; overflow-wrap: anywhere; border-bottom: 2px solid var(--line); padding-bottom: .15rem; transition: border-color .15s; }
+.email-big:hover { border-color: var(--ink); }
+.contact-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.4rem; }
+.contact-list { margin-top: 2rem; border-top: 1px solid var(--line); }
+.contact-list li { display: grid; grid-template-columns: 6rem minmax(0, 1fr); gap: 1rem; padding: .9rem 0; border-bottom: 1px solid var(--line); }
+.contact-list li span { color: var(--faint); }
+.contact-list a { font-weight: 600; overflow-wrap: anywhere; }
+.contact-list a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.bring { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: clamp(1.4rem, 3vw, 2rem); }
+.bring h3 { margin-bottom: 1rem; }
+.bring .bullets li { font-size: .96rem; }
+@media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+
+/* ---------- Footer ---------- */
+footer { border-top: 1px solid var(--line); padding: 1.75rem 0 calc(1.75rem + env(safe-area-inset-bottom, 0px)); color: var(--muted); font-size: .9rem; }
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem 2rem; }
+footer a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+</style>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Shahrukh Malick, back to top">
+      <span class="brand-mark">SM</span>
+      <span>Shahrukh Malick</span>
+    </a>
+    <nav class="nav-tools" aria-label="Main">
+      <div class="nav-links" id="navLinks">
+        <a href="#experience">Experience</a>
+        <a href="#impact">Impact</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#credentials">Credentials</a>
+        <a class="nav-cta" href="#contact">Get in touch</a>
+      </div>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch color theme">
+        <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Shahrukh<br/>Malick</h1>
+      <p class="hero-role">Project Coordinator Lead in Houston, Texas</p>
+      <p class="lede">I have spent four-plus years keeping telecom, IT and enterprise projects on schedule. I replace manual processes with automation and give leadership dashboards they can trust.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="mailto:shahrukhsarwar94@gmail.com">Email me</a>
+        <a class="btn btn-line" href="https://linkedin.com/in/shahrukh-malick-a6276a196/" target="_blank" rel="noopener">LinkedIn <svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+      </div>
+    </div>
+
+    <aside class="avail" aria-label="Availability">
+      <div class="avail-status"><span class="dot" aria-hidden="true"></span>Open to new roles</div>
+      <dl>
+        <dt>Looking for</dt>
+        <dd>Project Manager, PMO Analyst, Operations Lead, Telecom PM</dd>
+        <dt>Where</dt>
+        <dd>Houston, TX, or remote</dd>
+        <dt>Certified</dt>
+        <dd>PMP, PSM I, Lean Six Sigma Yellow Belt, SHRM, Extron AV</dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE (GANTT) ================= -->
+<section class="block" id="experience">
+  <div class="wrap">
+    <h2>Eight years, laid out like a project plan</h2>
+    <p class="sec-lede">Each bar is a role. Select one to read what I delivered. The gold bar is DwelloMate, the business I co-founded.</p>
+
+    <div class="gantt" id="gantt" role="group" aria-label="Career timeline from 2018 to 2026">
+      <div class="g-years" aria-hidden="true">
+        <span>2018</span><span>2019</span><span>2020</span><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span><span>2026</span>
+      </div>
+
+      <div class="g-label"><strong>Burlington</strong><span>Customer Service Supervisor</span></div>
+      <div class="g-track">
+        <button class="g-bar" type="button" style="--s:0%;--w:38%;--i:0" data-panel="job-burlington" aria-expanded="false" aria-controls="job-burlington">
+          <span class="g-fill"></span><span class="g-text">Jan 2018 to May 2021</span>
+        </button>
+      </div>
+
+      <div class="g-label"><strong>University of Houston</strong><span>IT Technician</span></div>
+      <div class="g-track">
+        <button class="g-bar" type="button" style="--s:23.15%;--w:14.81%;--i:1" data-panel="job-uh" aria-expanded="false" aria-controls="job-uh">
+          <span class="g-fill"></span><span class="g-text">2020 to 2021</span>
+        </button>
+      </div>
+
+      <div class="g-label"><strong>Crown Castle</strong><span>Project Coordinator Lead</span></div>
+      <div class="g-track">
+        <button class="g-bar" type="button" style="--s:40.74%;--w:58.33%;--i:2" data-panel="job-crown" aria-expanded="true" aria-controls="job-crown">
+          <span class="g-fill"></span><span class="g-text">Sept 2021 to present</span>
+        </button>
+      </div>
+
+      <div class="g-label"><strong>DwelloMate</strong><span>Co-founder</span></div>
+      <div class="g-track">
+        <a class="g-bar venture" href="#projects" style="--s:66.67%;--w:32.41%;--i:3" aria-label="DwelloMate, co-founder, 2024 to present. Go to project details.">
+          <span class="g-fill"></span><span class="g-text">2024 to present</span>
+        </a>
+      </div>
+
+      <div class="g-legend" aria-hidden="true">
+        <span><i class="sw"></i>Employment</span>
+        <span><i class="sw accent"></i>Own venture</span>
+        <span><i class="sw today"></i>Today</span>
+      </div>
+    </div>
+
+    <div class="job-panels">
+
+      <article class="job-panel" id="job-crown" aria-labelledby="h-crown">
+        <div class="jp-head">
+          <div>
+            <h3 id="h-crown">Project Coordinator Lead, Crown Castle</h3>
+            <p class="jp-meta">Sept 2021 to present, Texas</p>
+          </div>
+          <span class="badge now">Current role</span>
+        </div>
+        <div class="jp-body">
+          <p class="jp-summary">I am the operational backbone of Verizon’s System &amp; Process Team. I coordinate 100+ daily deliverables, lead automation work, and turn process gaps into cost savings.</p>
+          <ul class="bullets">
+            <li>Subject matter expert for Verizon’s System &amp; Process Team, and the go-to person for operational standards, workflow design and escalations that cross teams.</li>
+            <li>Partnered with UiPath to automate high-volume back-office tasks, removing 30+ manual hours a month and cutting human error in billing and delivery workflows.</li>
+            <li>Managed 100+ daily deliverables in MPV at 98% on-time completion, covering budgets, invoices and purchase orders across several project tracks.</li>
+            <li>Found process gaps through systematic analysis and built scalable fixes worth an estimated $250K in annual savings.</li>
+            <li>Produced CAD drawings in INsora for tower applications, shortening telecom site approvals by 20%.</li>
+            <li>Built Power BI dashboards that give leadership live KPI visibility in place of slow, error-prone manual reports.</li>
+            <li>Introduced proactive escalation protocols that cut missed deadlines by 12%.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job-panel" id="job-uh" aria-labelledby="h-uh">
+        <div class="jp-head">
+          <div>
+            <h3 id="h-uh">IT Technician, University of Houston</h3>
+            <p class="jp-meta">Feb 2020 to May 2021, Texas</p>
+          </div>
+          <span class="badge">Previous</span>
+        </div>
+        <div class="jp-body">
+          <p class="jp-summary">High-volume technical support across a major university campus, solving infrastructure problems daily while supporting modernization and compliance projects.</p>
+          <ul class="bullets">
+            <li>Resolved 25+ IT service requests a day across hardware, software and telecom systems, keeping user satisfaction above 95% through fast turnaround and clear communication.</li>
+            <li>Supported critical server upgrades that cut campus-wide downtime by 18%, limiting disruption for thousands of students and staff.</li>
+            <li>Led a Microsoft Intune pilot to secure and manage student devices at scale, improving campus IT compliance and endpoint security.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job-panel" id="job-burlington" aria-labelledby="h-bu">
+        <div class="jp-head">
+          <div>
+            <h3 id="h-bu">Customer Service Supervisor, Burlington</h3>
+            <p class="jp-meta">Jan 2018 to May 2021, Texas</p>
+          </div>
+          <span class="badge">Previous</span>
+        </div>
+        <div class="jp-body">
+          <p class="jp-summary">I built and led a team of 18 in a fast-paced retail store, improving customer satisfaction, sales and efficiency through coaching and process design.</p>
+          <ul class="bullets">
+            <li>Led and developed 18 associates, building accountability that lifted customer satisfaction from 63% to 78%.</li>
+            <li>Grew annual store sales from $1.5M to $1.9M through better floor operations, product placement and upselling coaching.</li>
+            <li>Hired and onboarded 30+ employees with a structured framework, cutting turnover by 10% and speeding up time to productivity.</li>
+            <li>Designed a cashier training program that shortened average checkout times by 25% and reduced peak-hour waits.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= IMPACT ================= -->
+<section class="block" id="impact">
+  <div class="wrap">
+    <h2>Results, by role</h2>
+    <p class="sec-lede">Every initiative came with a number attached. Here is what each role produced.</p>
+
+    <div class="ledger">
+      <div class="lg">
+        <div class="lg-head">
+          <h3>Crown Castle</h3>
+          <p>Project Coordinator Lead, 2021 to present</p>
+        </div>
+        <ul class="lg-rows">
+          <li><strong>$250K</strong><span>Estimated annual savings from process gap analysis</span></li>
+          <li><strong>98%</strong><span>On-time completion across 100+ daily deliverables</span></li>
+          <li><strong>30+ hrs</strong><span>Manual work removed every month with UiPath automation</span></li>
+          <li><strong>20%</strong><span>Faster tower site approvals through CAD drawings in INsora</span></li>
+          <li><strong>15%</strong><span>Shorter project cycle times from workflow optimization</span></li>
+          <li><strong>12%</strong><span>Fewer missed deadlines after introducing proactive escalation</span></li>
+        </ul>
+      </div>
+
+      <div class="lg">
+        <div class="lg-head">
+          <h3>University of Houston</h3>
+          <p>IT Technician, 2020 to 2021</p>
+        </div>
+        <ul class="lg-rows">
+          <li><strong>18%</strong><span>Less campus-wide downtime after critical server upgrades</span></li>
+          <li><strong>95%+</strong><span>User satisfaction while closing 25+ service requests a day</span></li>
+        </ul>
+      </div>
+
+      <div class="lg">
+        <div class="lg-head">
+          <h3>Burlington</h3>
+          <p>Customer Service Supervisor, 2018 to 2021</p>
+        </div>
+        <ul class="lg-rows">
+          <li><strong>$1.9M</strong><span>Annual store sales, up from $1.5M</span></li>
+          <li><strong>63 to 78%</strong><span>Customer satisfaction score</span></li>
+          <li><strong>25%</strong><span>Faster checkout after a new cashier training program</span></li>
+          <li><strong>10%</strong><span>Lower staff turnover through structured hiring and onboarding</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="block" id="projects">
+  <div class="wrap">
+    <h2>A business of my own</h2>
+    <p class="sec-lede">Outside my day job, I co-founded a smart home company that applies the same project discipline to people’s houses.</p>
+
+    <article class="venture-card" aria-labelledby="h-dm">
+      <div class="vc-top">
+        <div class="vc-main">
+          <div class="vc-title">
+            <div class="vc-mark" aria-hidden="true">DM</div>
+            <div>
+              <h3 id="h-dm">DwelloMate</h3>
+              <p class="vc-sub">Co-founder, 2024 to present, Houston, TX</p>
+            </div>
+          </div>
+          <p class="desc">DwelloMate brings professional home automation to Houston homeowners. We join Ring, Reolink, Honeywell, Aqara, Google Home and Sengled devices into one smart home that fits how each family lives.</p>
+          <a class="btn btn-solid" href="https://dwellomate.webflow.io" target="_blank" rel="noopener">Visit DwelloMate <svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+        </div>
+        <ul class="vc-services">
+          <li><strong>Smart lighting</strong><span>Lighting systems tailored to each room</span></li>
+          <li><strong>Security</strong><span>Camera and sensor integration</span></li>
+          <li><strong>Climate control</strong><span>Smart HVAC automation</span></li>
+          <li><strong>Support</strong><span>24/7 help from a local expert</span></li>
+        </ul>
+      </div>
+      <div class="vc-bottom">
+        <ul class="bullets">
+          <li>Co-founded and launched a Houston home automation company that delivers end-to-end smart home installations.</li>
+          <li>Unified leading device brands into voice-controlled systems tailored to each client.</li>
+          <li>Designed four service lines: lighting, security and cameras, climate control, and local support.</li>
+          <li>Apply project coordination to installation schedules, vendor relationships and client onboarding.</li>
+          <li>Built a local-first model that protects data privacy and keeps devices reliably connected.</li>
+          <li>Launched the website, pricing and client acquisition pipeline from scratch.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="block" id="skills">
+  <div class="wrap">
+    <h2>Skills and tools</h2>
+    <p class="sec-lede">Project delivery, automation, analytics and people leadership, across telecom and enterprise settings.</p>
+
+    <dl class="skills">
+      <div class="skills-row"><dt>Project management</dt><dd>Agile and Scrum, Waterfall, PMO support, Microsoft Project, SharePoint, PMT, risk management, budget coordination, stakeholder communication</dd></div>
+      <div class="skills-row"><dt>Telecom operations</dt><dd>Crown Castle and Verizon, tower approvals, CAD and INsora, AutoCAD, vendor coordination, telecom compliance, infrastructure coordination</dd></div>
+      <div class="skills-row"><dt>Automation and analytics</dt><dd>UiPath RPA, Power BI, KPI dashboards, Lean Six Sigma, data visualization, executive reporting, process gap analysis</dd></div>
+      <div class="skills-row"><dt>HR and enterprise systems</dt><dd>Workday, ADP, SAP, HRIS platforms, Microsoft Intune, SHRM practices</dd></div>
+      <div class="skills-row"><dt>Productivity and IT</dt><dd>Advanced Excel, PowerPoint, Outlook, IT ticketing systems, hardware support, software troubleshooting</dd></div>
+      <div class="skills-row"><dt>Leadership</dt><dd>Team development, hiring and onboarding, cross-functional collaboration, coaching and mentorship, workforce management</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ================= CREDENTIALS ================= -->
+<section class="block" id="credentials">
+  <div class="wrap">
+    <h2>Certifications and education</h2>
+    <p class="sec-lede">Credentials in project management, agile delivery, HR and process improvement.</p>
+
+    <div class="cred">
+      <div>
+        <h3>Certifications</h3>
+        <ul class="cert-list">
+          <li><strong>PMP</strong><span>Project Management Professional</span></li>
+          <li><strong>PSM I</strong><span>Professional Scrum Master I</span></li>
+          <li><strong>Lean Six Sigma Yellow Belt</strong><span>Process improvement</span></li>
+          <li><strong>SHRM Essentials of HR</strong><span>Society for Human Resource Management</span></li>
+          <li><strong>Extron Certified AV Associate</strong><span>Audio-visual technology</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Education</h3>
+        <div class="edu">
+          <p class="degree">B.S. Human Resource Development</p>
+          <p>University of Houston, College of Technology &amp; Culture, Houston, TX</p>
+          <div class="honors"><span>Magna Cum Laude</span><span>GPA 3.6</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="block" id="contact">
+  <div class="wrap">
+    <h2>Let’s talk about your next project</h2>
+    <p class="sec-lede">I’m available for Project Manager, PMO Analyst, Operations Lead and Telecom PM roles, in Houston and remote.</p>
+
+    <div class="contact-grid">
+      <div>
+        <a class="email-big" id="emailLink" href="mailto:shahrukhsarwar94@gmail.com">shahrukhsarwar94@gmail.com</a>
+        <div class="contact-actions">
+          <a class="btn btn-solid" href="mailto:shahrukhsarwar94@gmail.com">Send an email</a>
+          <button class="btn btn-line" id="copyEmail" type="button">Copy email</button>
+          <span class="sr-only" id="copyStatus" role="status" aria-live="polite"></span>
+        </div>
+        <ul class="contact-list">
+          <li><span>Phone</span><a href="tel:8329297642">832-929-7642</a></li>
+          <li><span>LinkedIn</span><a href="https://linkedin.com/in/shahrukh-malick-a6276a196/" target="_blank" rel="noopener">linkedin.com/in/shahrukh-malick-a6276a196</a></li>
+          <li><span>Location</span><b style="font-weight:600">Houston, TX</b></li>
+        </ul>
+      </div>
+
+      <aside class="bring" aria-label="What I bring">
+        <h3>What I bring to a team</h3>
+        <ul class="bullets">
+          <li>Ownership of the full project lifecycle in Agile, Waterfall and hybrid models.</li>
+          <li>An automation-first approach that turns manual workflows into reliable systems.</li>
+          <li>Power BI dashboards that support decisions at the leadership level.</li>
+          <li>Deep telecom experience with Verizon and Crown Castle, tower approvals and CAD site workflows.</li>
+          <li>PMP, Scrum, Six Sigma and SHRM credentials across project, agile and HR work.</li>
+          <li>Proven results: $250K in savings, 98% on-time delivery and 30+ hours automated each month.</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Shahrukh Malick, Houston, TX</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+
+  /* Theme toggle */
+  var themeBtn = document.getElementById('themeBtn');
+  var themeMeta = document.querySelector('meta[name="theme-color"]');
+  function syncTheme() {
+    var dark = root.getAttribute('data-theme') === 'dark';
+    themeBtn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+    if (themeMeta) themeMeta.setAttribute('content', dark ? '#0B1622' : '#F6F7F9');
+  }
+  themeBtn.addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    syncTheme();
+  });
+  syncTheme();
+
+  /* Mobile menu */
+  var menuBtn = document.getElementById('menuBtn');
+  var links = document.getElementById('navLinks');
+  function setMenu(open) {
+    links.classList.toggle('open', open);
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+  menuBtn.addEventListener('click', function () { setMenu(!links.classList.contains('open')); });
+  links.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+  document.addEventListener('click', function (e) {
+    if (links.classList.contains('open') && !e.target.closest('.nav-tools')) setMenu(false);
+  });
+
+  /* Highlight the section in view */
+  var navAnchors = [].slice.call(document.querySelectorAll('.nav-links a:not(.nav-cta)'));
+  var sections = navAnchors.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  if ('IntersectionObserver' in window) {
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        navAnchors.forEach(function (a) {
+          if (a.getAttribute('href') === '#' + en.target.id) a.setAttribute('aria-current', 'true');
+          else a.removeAttribute('aria-current');
+        });
+      });
+    }, { rootMargin: '-35% 0px -60% 0px' });
+    sections.forEach(function (s) { spy.observe(s); });
+  }
+
+  /* Gantt: pick a role to read */
+  var bars = [].slice.call(document.querySelectorAll('button.g-bar[data-panel]'));
+  var panels = [].slice.call(document.querySelectorAll('.job-panel'));
+  function select(id) {
+    bars.forEach(function (b) { b.setAttribute('aria-expanded', b.getAttribute('data-panel') === id ? 'true' : 'false'); });
+    panels.forEach(function (p) { p.hidden = (p.id !== id); });
+  }
+  bars.forEach(function (b) { b.addEventListener('click', function () { select(b.getAttribute('data-panel')); }); });
+  select('job-crown');
+
+  /* Gantt: bars draw in once, the first time the chart is seen */
+  var gantt = document.getElementById('gantt');
+  function showGantt() { gantt.classList.add('in'); }
+  if ('IntersectionObserver' in window) {
+    var gio = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) { showGantt(); gio.disconnect(); }
+    }, { threshold: 0.25 });
+    gio.observe(gantt);
+    setTimeout(showGantt, 2500);
+  } else {
+    showGantt();
+  }
+
+  /* Copy email */
+  var copyBtn = document.getElementById('copyEmail');
+  var status = document.getElementById('copyStatus');
+  var address = 'shahrukhsarwar94@gmail.com';
+  function copied() {
+    copyBtn.textContent = 'Copied';
+    status.textContent = 'Email address copied';
+    setTimeout(function () { copyBtn.textContent = 'Copy email'; status.textContent = ''; }, 2000);
+  }
+  function legacyCopy() {
+    var t = document.createElement('textarea');
+    t.value = address; t.setAttribute('readonly', '');
+    t.style.position = 'fixed'; t.style.opacity = '0';
+    document.body.appendChild(t); t.select();
+    try { if (document.execCommand('copy')) copied(); } catch (e) {}
+    document.body.removeChild(t);
+  }
+  copyBtn.addEventListener('click', function () {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(address).then(copied, legacyCopy);
+    } else { legacyCopy(); }
+  });
+})();
+</script>
+</body>
+</html>
